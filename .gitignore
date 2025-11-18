@@ -1,0 +1,46 @@
+# Ignore all binaries
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+*.VC.db
+*.opensdf
+*.sdf
+*.suo
+*.tmp
+*.user
+*.userprefs
+
+# Ignore Rider/VSCode/etc config
+.idea/
+.vscode/
+*.sln
+
+# Ignore Unreal auto-generated files
+*.xcodeproj
+*.xcworkspace
+
+# Ignore built files
+*.dll
+*.exe
+*.pdb
+
+# Ignore Unreal logs
+Saved/Logs/
+
+# Ignore Autosaves
+Saved/Autosaves/
+Saved/Backup/
+
+# Ignore Derived Data
+DerivedDataCache/*
+
+# Keep source code and up project files
+!Source/**
+
+# Include Config folder
+!Config/**
+
+# Include Content (BUT filter out bulk cached files)
+Content/**
